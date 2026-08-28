@@ -1,4 +1,4 @@
-if not kr_adjust_stack_sizes then
+if not KR.adjust_stack_sizes then
 	return
 end
 
