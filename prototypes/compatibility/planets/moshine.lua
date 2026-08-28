@@ -27,7 +27,7 @@ if mods["moshine-solaponics"] then
 end
 
 data.raw.technology["moshine-tech-glass"] = nil
-data.raw.technology["moshine-tech-silicon"] = nil
+--data.raw.technology["moshine-tech-silicon"] = nil
 
 data.raw.technology["moshine-tech-silicon-cell"].research_trigger = {
 	type = "craft-item",
@@ -87,6 +87,8 @@ data:extend({
 			ingredients = {
 				{ "datacell-raw-data", 1 },
 				{ "datacell-ai-model-data", 1 },
+				{ "datacell-solved-equation", 1 },
+				{ "datacell-cosmic-data-outsignal", 1 },
 			},
 		},
 		prerequisites = { "moshine-tech-ai-tier-7", "kr-gamma-core", "kr-advanced-tech-card" },
@@ -105,6 +107,9 @@ data:extend({
 			ingredients = {
 				{ "datacell-raw-data", 1 },
 				{ "datacell-ai-model-data", 1 },
+				{ "datacell-solved-equation", 1 },
+				{ "datacell-cosmic-data-outsignal", 1 },
+				{ "datacell-cosmic-data", 1 },
 			},
 		},
 		prerequisites = { "moshine-tech-ai-tier-10", "kr-beta-core", "kr-singularity-tech-card" },

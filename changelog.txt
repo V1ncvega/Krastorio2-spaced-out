@@ -5,6 +5,9 @@ Date: 2026-08-28
     - Steam condensation is no longer affected by productivity
   Bugfixes:
     - Fixed that adjust stack sizes variable that was renamed in K2 wasn't renamed in K2SO
+  Compatibility:
+    - Fixed Moshine startup error
+    - AI cores moduels technologies for moshine now use all prerequisite datacells 
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.16
 Date: 2026-08-14
