@@ -1,6 +1,8 @@
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.17
 Date: 2026-08-28
+  Changes:
+    - Steam condensation is no longer affected by productivity
   Bugfixes:
     - Fixed that adjust stack sizes variable that was renamed in K2 wasn't renamed in K2SO
 ---------------------------------------------------------------------------------------------------

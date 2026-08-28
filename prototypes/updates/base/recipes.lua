@@ -154,6 +154,11 @@ data_util.add_or_replace_product(
 	"molten-copper",
 	{ type = "fluid", name = "molten-copper", amount = 300 }
 )
+data_util.add_or_replace_product(
+	"steam-condensation",
+	"water",
+	{ type = "fluid", name = "water", amount = 90, ignored_by_productivity = 90 }
+)
 
 recipe["express-underground-belt"].categories = { "crafting-with-fluid", "metallurgy" }
 recipe["express-splitter"].categories = { "crafting-with-fluid", "metallurgy" }
