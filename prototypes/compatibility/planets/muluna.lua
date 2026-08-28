@@ -17,7 +17,7 @@ end
 data_util.add_or_replace_ingredient(
 	"low-density-structure-from-aluminum",
 	"aluminum-plate",
-	{ type = "item", name = "aluminum-plate", amount = 10 }
+	{ type = "item", name = "aluminum-plate", amount = 60 }
 )
 data_util.add_or_replace_ingredient(
 	"casting-low-density-structure-aluminum",
@@ -69,6 +69,8 @@ table.insert(
 	data.raw["assembling-machine"]["kr-advanced-assembling-machine"].crafting_categories,
 	"crafting-with-fluid-and-data"
 )
+
+data_util.add_research_unit_ingredient("kr-intergalactic-transceiver", "interstellar-science-pack")
 
 --Add muluna data fluidboxes
 local function fluidbox(machine)

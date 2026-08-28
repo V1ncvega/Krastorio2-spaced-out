@@ -9,6 +9,7 @@ require("prototypes.final-fixes.surface-conditions")
 require("prototypes.final-fixes.recycling")
 
 require("prototypes.compatibility.aai-industry")
+require("prototypes.compatibility.planets.muluna-final")
 
 local api = require("__Krastorio2__.prototypes.libraries.space-age-warning")
 api.disable_space_age_warning()
